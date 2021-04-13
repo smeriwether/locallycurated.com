@@ -1,5 +1,9 @@
 module.exports = {
-  purge: ['index.html'],
+  mode: 'jit',
+  purge: [
+    'index.html',
+    '404.html'
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
