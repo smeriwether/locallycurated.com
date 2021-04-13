@@ -842,6 +842,10 @@ select {
   color: rgba(107, 114, 128, var(--tw-placeholder-opacity));
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
