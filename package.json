@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "dev": "NODE_ENV=development postcss base-styles.css -o ./styles.css -w",
+    "dev": "NODE_ENV=development postcss styles.css -o ./styles.css -w",
     "build": "./build.sh",
-    "deploy": "./deploy.sh",
     "open": "open ./index.html"
   },
   "author": "Stephen Meriwether & Ben Blair",

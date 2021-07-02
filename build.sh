@@ -2,11 +2,11 @@
 
 rm -rf ./site
 
-npx postcss ./base-styles.css -o ./site/styles.css
+npx postcss --config=./postcss.config.js ./styles.css -o ./site/styles.css
 
 cp index.html ./site/index.html
-cp 404.html ./site/404.html
 cp thanks.html ./site/thanks.html
+cp 404.html ./site/404.html
 
 if [[ $NODE_ENV == "production" ]]; then
   for file in ./site/*.html; do
