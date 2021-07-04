@@ -1,7 +1,7 @@
 {
   "name": "locally-curated",
   "version": "0.0.1",
-  "description": "",
+  "description": "Website for locallycurated.com",
   "scripts": {
     "dev": "NODE_ENV=development postcss styles.css -o ./styles.css -w",
     "build": "./build.sh",
@@ -9,7 +9,7 @@
   },
   "author": "Stephen Meriwether & Ben Blair",
   "license": "UNLICENSED",
-  "devDependencies": {
+  "dependencies": {
     "@tailwindcss/forms": "^0.3.2",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.10",
